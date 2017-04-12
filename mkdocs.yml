@@ -51,6 +51,8 @@ pages:
       - Node Info: api/helper-objects/node-info.md
       - Parse: api/helper-objects/parse.md
       - Transition: api/helper-objects/transition.md
+    - Keypath Prefixes: api/keypath-prefixes.md
+    - Special References: api/special-references.md
     - Errors: api/errors.md
     - Component Files: api/component-files.md
   - Integrations:
