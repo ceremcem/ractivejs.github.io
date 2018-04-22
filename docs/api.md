@@ -4428,7 +4428,7 @@ Creates a link between two keypaths that keeps them in sync. Since Ractive can't
 
 **Syntax**
 
-- `ractive.link(source, destination, options)`
+- `ractive.link(destination, source, options)`
 
 **Arguments**
 
