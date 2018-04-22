@@ -4435,8 +4435,8 @@ Creates a link between two keypaths that keeps them in sync. Since Ractive can't
 - `source (string)`: The keypath of the source item.
 - `destination (string)`: The keypath to use as the destination - or where you'd like the data 'copied'.
 - `options (hash)`:
-  - `instance` or `ractive`: The Ractive instance in which to find the source keyapth. This allows cross-instance linking much like mapped paths between components.
-  - `keypath`: __From 0.9.4__ - The keypath to register as the source of the link. This is an advanced option that allows you to specify how the link should shuffle. For instance `items.0.name` will never shuffle, but if the keypath is specified as `.name`, then it will shuffle when `items.0` shuffles.
+    - `instance` or `ractive`: The Ractive instance in which to find the source keyapth. This allows cross-instance linking much like mapped paths between components.
+    - `keypath`: __From 0.9.4__ - The keypath to register as the source of the link. This is an advanced option that allows you to specify how the link should shuffle. For instance `items.0.name` will never shuffle, but if the keypath is specified as `.name`, then it will shuffle when `items.0` shuffles.
 
 **Returns**
 
